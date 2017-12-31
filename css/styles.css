@@ -1,0 +1,220 @@
+/*
+Light Cyan: #E0FBFC
+Weldon Blue: #7798AB
+Columbia Blue: #C2DFE3 Text
+Cadet: #5C6B73
+Gunmetal: #253237
+
+*/
+
+/* Global Styles */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 0;
+    color: #253237;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+h1, h3 {
+    font-family: monospace;
+}
+
+p {
+    font-size: 1.3em;
+/*    line-height: 1.5em;*/
+}
+
+h1, p {
+    color: #C2DFE3
+}
+
+/* Header */
+header {
+    position: relative;
+}
+
+/* Nav bar */
+nav {
+    background: #253237;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: monospace;
+    color: #C2DFE3;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background: gray;
+}
+
+/* Header & Footer*/
+
+.header {
+    background-image: url(../images/60.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #253237;
+    background-position: center;
+/*    background-attachment: fixed;*/
+    text-align: center;
+    color: #C2DFE2;
+}
+
+.footer {
+    display: block;
+    background: #253237;
+    color: #C2DFE3;
+    text-align: center;
+}
+
+/* Main */
+.about {
+    background: #7798AB;   
+}
+
+.image-1 {
+    background: linear-gradient(rgba(119, 152, 171, 1), rgba(92, 107, 115, 1));
+/*
+    margin-top: 0;
+    margin-bottom: 0;
+*/
+}
+
+.ship {
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 5%;
+    border: 4px inset #253237;
+}
+
+.skills {
+    background: #5C6B73;
+}
+
+.qualifications { 
+    background: #E0FBFC;
+}
+
+.qualifications div p {
+    color: #253237;
+}
+
+.interests {
+    background: #5C6B73;
+}
+
+.col-left {
+    width: 50%;
+    float: left;
+}
+
+.col-right {
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+}
+
+.col-left, .col-right {
+    font-size: 1.3em;
+}
+
+.learn_more {
+    background: #7798AB;
+}
+
+/* Footer */
+.contact-me a {
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #C2DFE3;
+    size: 15px;
+}
+
+/* Responsive */
+
+@media (max-width: 899px) {
+    header {
+        text-align: center;
+    }
+    nav a {
+        margin: 3px;
+        padding: 5px;
+        font-size: 10px;
+        display: inline-flex;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    img {
+        width: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
